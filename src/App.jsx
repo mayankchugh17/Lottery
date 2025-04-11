@@ -5,7 +5,10 @@ import './App.css'
 function App() {
   return (
    <>
-      <Ticket ticket={[10,20,40]} />
+      <Ticket ticket={[7,8,6]} />
+      <br />
+      <Ticket ticket={[10,2,13,5]} />
+
    </>
   )
 }
