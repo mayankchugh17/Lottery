@@ -1,13 +1,11 @@
 import LotteryGame from './Lotterygame'
-import TicketNum from './TicketNum'
+import Ticket from './Ticket.jsx'
 import './App.css'
 
 function App() {
   return (
    <>
-      <TicketNum num={7} />
-      <TicketNum num={8} />
-      <TicketNum num={6} />
+      <Ticket ticket={[10,20,40]} />
    </>
   )
 }
